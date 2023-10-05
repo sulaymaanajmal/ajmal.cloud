@@ -1,10 +1,27 @@
+@font-face {
+    font-family: 'Trip Sans Bold';
+    src: url('./assets/fonts/Trip-Sans-Font/trip-sans-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    background-image: url('./assets/bg-horizontal.svg');
+    background-image: url('./assets/background/bg-horizontal.svg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    font-family: 'Trip Sans', sans-serif;
 }
 
-.body {
+.helloWorld {
     color: white;
+    font-family: 'Trip Sans Bold', sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.3s;
 }
