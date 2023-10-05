@@ -13,7 +13,7 @@ body {
     font-family: 'Trip Sans', sans-serif;
 }
 
-.helloWorld {
+h1 {
     color: white;
     font-family: 'Trip Sans Bold', sans-serif;
     font-size: 50px;
@@ -26,6 +26,6 @@ body {
     transition: all 0.3s;
 }
 
-.helloWorld::selection {
+h1::selection {
     background-color: rgba(255, 255, 0, 0.765);
 }
