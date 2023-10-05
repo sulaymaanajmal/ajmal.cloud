@@ -16,7 +16,7 @@ body {
 .helloWorld {
     color: white;
     font-family: 'Trip Sans Bold', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,4 +24,8 @@ body {
     padding: 0px;
     margin: 0px;
     transition: all 0.3s;
+}
+
+.helloWorld::selection {
+    background-color: rgba(255, 255, 0, 0.765);
 }
