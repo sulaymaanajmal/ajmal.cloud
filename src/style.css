@@ -1,0 +1,10 @@
+body {
+    background-image: url('./assets/bg-horizontal.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.body {
+    color: white;
+}
