@@ -29,3 +29,37 @@ h1 {
 h1::selection {
     background-color: rgba(255, 255, 0, 0.765);
 }
+
+h2 {
+    color: white;
+    font-family: 'Trip Sans Bold', sans-serif;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.3s;
+}
+
+h2::selection {
+    background-color: rgba(255, 255, 0, 0.765);
+}
+
+p {
+    color: white;
+    font-family: 'Trip Sans Bold', sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.3s;
+}
+
+p::selection {
+    background-color: rgba(255, 255, 0, 0.765);
+}
