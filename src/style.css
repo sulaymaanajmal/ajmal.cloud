@@ -5,11 +5,23 @@
     font-style: normal;
 }
 
+@media screen(max-width: 768px) {
+    body {
+        background-image: url('./assets/background/bg-vertical.svg');
+        display: grid;
+        place-items: center;
+        align-items: center;
+    }
+}
+
 body {
     background-image: url('./assets/background/bg-horizontal.svg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    display: grid;
+    place-items: center;
+    align-items: center;
     font-family: 'Trip Sans', sans-serif;
 }
 
@@ -47,6 +59,10 @@ h2::selection {
     background-color: rgba(255, 255, 0, 0.765);
 }
 
+.whoAmI {
+    height: 10vh;
+}
+
 p {
     color: white;
     font-family: 'Trip Sans Bold', sans-serif;
@@ -62,4 +78,46 @@ p {
 
 p::selection {
     background-color: rgba(255, 255, 0, 0.765);
+}
+
+.aboutImagesDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutImages {
+    height: 100vh;
+    padding: 0px;
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 5px;
+    display: inline;
+    transition: all 0.3s;
+}
+
+.aboutImages {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX (-100%);
+    transition: all 1s;
+}
+    
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0%);
+}
+
+.myWorkHeading {
+    margin-top: 30vh;
+    height: 15vh;
+}
+
+.contactMe {
+    height: 15vh;
+    margin-top: 30vh;
 }
