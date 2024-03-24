@@ -74,3 +74,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.typed-cursor {
+  visibility: hidden;
+}
+
+.typed-fade-out {
+  transition: opacity 0.5s ease-in-out;
+}
