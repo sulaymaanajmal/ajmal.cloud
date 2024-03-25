@@ -16,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="min-h-screen bg-background font-sans antialiased selection:bg-accent">
+      <head>
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
+      </head>
       <body className={font.className}>{children}</body>
     </html>
   );
