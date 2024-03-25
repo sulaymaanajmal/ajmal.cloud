@@ -9,7 +9,7 @@ return (
       <h1 className="text-4xl font-bold">My name is Sulaymaan Ajmal.</h1>
       <Separator />
       <p className="text-lg">
-        I'm web developer and I love to build things.
+        I&#39;m web developer and I love to build things.
       </p>
       <button className="bg-primary hover:bg-secondary font-bold py-2 px-4 m-5 rounded inline-flex items-center">
   <a href="mailto:sulaymaan@ajmal.cloud" className="mr-2">Say Hi!</a>
