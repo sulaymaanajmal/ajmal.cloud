@@ -9,7 +9,7 @@ return (
       <h1 className="text-4xl font-bold">My name is Sulaymaan Ajmal.</h1>
       <Separator />
       <p className="text-lg">
-        I am a web developer and I love to build things.
+        I'm web developer and I love to build things.
       </p>
     </main>
   );
