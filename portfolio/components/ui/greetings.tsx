@@ -12,7 +12,7 @@ export default function Greetings() {
       strings: [
         'Hello!',
         '¡Hola!',
-        'Bonjour !',
+        'Bonjour!',
         'Hallo!',
         'Ciao!',
         'Olá!',
@@ -123,8 +123,28 @@ export default function Greetings() {
   }, []);
 
   return (
-    <div className='items-center'>
-      <span ref={el} className='block max-w-min overflow-hidden m-0 p-0' style={{ caretColor: 'transparent' }}/>
+    <div className='w-full max-w-screen-sm items-center h-12 m-5'>
+      <span ref={el} className='block w-full overflow-hidden m-0 p-0 overflow-ellipsis text-size' style={{ caretColor: 'transparent' }}/>
+      <style jsx>{`
+        .text-size {
+          font-size: 4vw;
+        }
+        @media (max-width: 640px) {
+          .text-size {
+            font-size: 10vw;
+          }
+        }
+        @media (min-width: 640px) {
+          .text-size {
+            font-size: 3vw;
+          }
+        }
+        @media (min-width: 768px) {
+          .text-size {
+            font-size: 2vw;
+          }
+        }
+      `}</style>
     </div>
   );
 };
